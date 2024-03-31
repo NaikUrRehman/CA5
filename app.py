@@ -15,7 +15,7 @@ def get_db():
 
 @app.route('/')
 def ping_server():
-    return "Welcome to the world of animals."
+    return "Welcome to the class of Machine Learning Operations 2024."
 
 @app.route('/animals')
 def get_stored_animals():
@@ -25,4 +25,4 @@ def get_stored_animals():
     return jsonify({"animals": animals})
 
 if __name__=='__main__':
-    app.run(host="0.0.0.0", port=5000)
+    app.run(host="0.0.0.0", port=8080)
