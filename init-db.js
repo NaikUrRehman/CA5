@@ -4,17 +4,17 @@ db.animal_tb.drop();
 db.animal_tb.insertMany([
     {
         "id": 1,
-        "name": "Lion",
-        "type": "wild"
+        "name": "Shayan Faisal",
+        "type": "CS A"
     },
     {
         "id": 2,
-        "name": "Cow",
-        "type": "domestic"
+        "name": "Naik Ur Rehman",
+        "type": "CS A"
     },
     {
         "id": 3,
-        "name": "Tiger",
-        "type": "wild"
+        "name": "Sir Hammad Majeed",
+        "type": "Instrucotr"
     },
 ]);
